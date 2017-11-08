@@ -31,7 +31,7 @@
                                 </variation>
                                 <variation key="widthClass=regular">
                                     <mask key="constraints">
-                                        <exclude reference="GgG-tv-Ddv"/>
+                                        <include reference="GgG-tv-Ddv"/>
                                     </mask>
                                 </variation>
                             </imageView>
