@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		824B08291FB2D6F8004C468A /* NegativeSizeClassConstraints.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NegativeSizeClassConstraints.storyboard; sourceTree = "<group>"; };
-		824F6CF41FB08017005AA4EA /* StoryboardCardEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardCardEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824F6CF41FB08017005AA4EA /* SingleStarAutoLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleStarAutoLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824F6CF71FB08017005AA4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824F6CFE1FB08017005AA4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824F6D011FB08017005AA4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		824F6CF51FB08017005AA4EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				824F6CF41FB08017005AA4EA /* StoryboardCardEditor.app */,
+				824F6CF41FB08017005AA4EA /* SingleStarAutoLayoutTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		824F6CF31FB08017005AA4EA /* StoryboardCardEditor */ = {
+		824F6CF31FB08017005AA4EA /* SingleStarAutoLayoutTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 824F6D061FB08017005AA4EA /* Build configuration list for PBXNativeTarget "StoryboardCardEditor" */;
+			buildConfigurationList = 824F6D061FB08017005AA4EA /* Build configuration list for PBXNativeTarget "SingleStarAutoLayoutTest" */;
 			buildPhases = (
 				824F6CF01FB08017005AA4EA /* Sources */,
 				824F6CF11FB08017005AA4EA /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = StoryboardCardEditor;
+			name = SingleStarAutoLayoutTest;
 			productName = StoryboardCardEditor;
-			productReference = 824F6CF41FB08017005AA4EA /* StoryboardCardEditor.app */;
+			productReference = 824F6CF41FB08017005AA4EA /* SingleStarAutoLayoutTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 824F6CEF1FB08017005AA4EA /* Build configuration list for PBXProject "StoryboardCardEditor" */;
+			buildConfigurationList = 824F6CEF1FB08017005AA4EA /* Build configuration list for PBXProject "SingleStarAutoLayoutTest" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				824F6CF31FB08017005AA4EA /* StoryboardCardEditor */,
+				824F6CF31FB08017005AA4EA /* SingleStarAutoLayoutTest */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		824F6CEF1FB08017005AA4EA /* Build configuration list for PBXProject "StoryboardCardEditor" */ = {
+		824F6CEF1FB08017005AA4EA /* Build configuration list for PBXProject "SingleStarAutoLayoutTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824F6D041FB08017005AA4EA /* Debug */,
@@ -304,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		824F6D061FB08017005AA4EA /* Build configuration list for PBXNativeTarget "StoryboardCardEditor" */ = {
+		824F6D061FB08017005AA4EA /* Build configuration list for PBXNativeTarget "SingleStarAutoLayoutTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824F6D071FB08017005AA4EA /* Debug */,
