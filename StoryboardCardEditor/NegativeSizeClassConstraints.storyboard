@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iIy-9B-wMn">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Single Star View Controller-->
+        <scene sceneID="AAL-N1-qeB">
+            <objects>
+                <viewController id="iIy-9B-wMn" customClass="SingleStarViewController" customModule="StoryboardCardEditor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gf1-IX-Qcs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="phG-7D-rLg">
+                                <rect key="frame" x="147" y="178" width="120" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="480" id="GgG-tv-Ddv"/>
+                                    <constraint firstAttribute="height" constant="400" id="RiY-by-gDU"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="GgG-tv-Ddv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="GgG-tv-Ddv"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="phG-7D-rLg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="itn-LZ-i9s" secondAttribute="top" id="9TS-59-pHA"/>
+                            <constraint firstItem="phG-7D-rLg" firstAttribute="centerX" secondItem="itn-LZ-i9s" secondAttribute="centerX" id="JvM-cr-F1J"/>
+                            <constraint firstItem="phG-7D-rLg" firstAttribute="centerY" secondItem="itn-LZ-i9s" secondAttribute="centerY" id="fCB-PW-Pgv"/>
+                            <constraint firstItem="phG-7D-rLg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="itn-LZ-i9s" secondAttribute="leading" id="gq4-o1-yVj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="itn-LZ-i9s"/>
+                    </view>
+                    <connections>
+                        <outlet property="starImageVIew" destination="phG-7D-rLg" id="34a-yW-ZLQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ2-JO-Vf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1145" y="2167"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Star" width="120" height="120"/>
+    </resources>
+</document>
